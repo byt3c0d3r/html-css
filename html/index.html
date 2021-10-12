@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML</title>
+    <meta name="description" content="En esta página estamos aprendiendo los fundamentos de HTML5 y CSS">
+    <link rel="canonical" href="http://dominio.com/la-url-canonica">
+    <link rel="icon" href="ruta/favico">
+    <link rel="apple-touch-icon" href="ruta/favicon">
+    <meta name="theme-color" content="#FF6600">
+    <meta property="og:title" content="Aprendiendo HTML">
+    <meta property="og:description" content="En esta página estamos aprendiendo los fundamentos de HTML5 y CSS"">
+    <meta property="og:image" content="ruta/img">
+    <meta property="og:url" content="https://tudominio.con/index.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="f3rn4nd02345">
+
+
+    <style>
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>etiqueta h1 - solo puede existir una por documento web</h1>
+    <h2>Etiqueta h2</h2>
+    <h3>Etiqueta h3</h3>
+    <h4>Etiqueta h4</h4>
+    <h5>Etiqueta h5</h5>
+    <h6>Etiqueta h6</h6>
+    
+    <hr>
+     <h2>Etiqueta h2</h2>
+     <p>
+         <strong>Este texto es importante</strong>.<em>Este texto hace énfasis</em>
+     </p>
+     <pre>
+         <code>
+             import React from "react"
+             import Title from "./title"
+
+             function App{
+                 return &It;Title/&gt
+             }
+
+            </code>
+     </pre>
+
+     <h2 id="estructura">Estructura semantica</h2>
+     <div>Es una etiqueta contenedora que no tiene semantica</div>
+     <header>Header - Cabecera de un sitio web o una sección</header>
+     <main>
+         main - define la sección principal del documento, sólo puede existir una etiqueta main por documento
+     </main>
+     <footer>
+         Footer - Es el pie de página va hasta el final del sitio
+     </footer>
+     <nav>nav - representa una navegación</nav>
+     <article>
+         article - Representa una sección autocontenido (que por si sola se explica)
+     </article>
+     <aside>
+         aside - representa contenido complementario o secundario
+     </aside>
+     <section>
+        section - representa una sección de contenido genérico
+     </section>
+     <address>address - representa una información de contacto</address>
+
+     <h2>Etiquetas de línea y de bloque</h2>
+     <div>etiqueta de bloque es la div, generan salto de línea arriba y abajo</div>
+     <span>etiqueta de línea es la span, solo ocupa el espacio necesario que tiene su contenido</span>
+
+     <h2>Imagenes</h2>
+     <img src="../img/3xv.png" alt="imagen">
+
+    <h2>Figuras</h2>
+    <br>
+    <h2>listas ordenadas</h2>
+     <ol>
+         <li>java</li>
+         <li>c#</li>
+         <li>c++</li>
+         <li>python</li>
+         <li>mysql</li>
+     </ol>
+     <ol start="3">
+        <li>java</li>
+        <li>c#</li>
+        <li>c++</li>
+        <li>python</li>
+        <li>mysql</li>
+    </ol>
+    <ol reversed>
+        <li>java</li>
+        <li>c#</li>
+        <li>c++</li>
+        <li>python</li>
+        <li>mysql</li>
+    </ol>
+    <ol type="I">
+        <li>java</li>
+        <li>c#</li>
+        <li>c++</li>
+        <li>python</li>
+        <li>mysql</li>
+    </ol>
+
+     <h2>listas desordenadas</h2>
+
+     <ul type="circle" >
+         <li>swift</li>
+         <li>php</li>
+         <li>React</li>
+         <li>laravel</li>
+     </ul>
+     <ul type="square" >
+        <li>swift</li>
+        <li>php</li>
+        <li>React</li>
+        <li>laravel</li>
+    </ul>
+    <ul type="disc" >
+        <li>swift</li>
+        <li>php</li>
+        <li>React</li>
+        <li>laravel</li>
+    </ul>
+
+
+    <h2>tablas</h2>
+    <table border="1">
+      
+            <tr>
+               <td>nombre</td>
+               <td>constelacion</td>
+               <td>tipo</td>
+            </tr>
+            <tr>
+                <td>ikki</td>
+                <td>fenix</td>
+                <td>bronce</td>
+            </tr>
+            <tr>
+                <td>shaina</td>
+                <td>ofiuco</td>
+                <td>plata</td>
+            </tr>
+            <tr>
+                <td>saga</td>
+                <td>geminis</td>
+                <td>dorado</td>
+            </tr>
+      
+        
+    </table> 
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Tabla de los santos de athenas</th>
+            </tr>
+            <tr>
+                <th>nombre</th>
+                <th>constelacion</th>
+                <th>tipo</th>
+             </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <tr>
+                    <td>ikki</td>
+                    <td>fenix</td>
+                    <td>bronce</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>shaina</td>
+                <td>ofiuco</td>
+                <td>plata</td>
+            </tr>
+            <tr>
+                <td>saga</td>
+                <td>geminis</td>
+                <td>dorado</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="3"><small>Saint seiya</small></th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Enlaces</h2>
+    <a href="www.facebook.com" target="_blank" rel="nofollow">Facebook</a>
+
+    <h2>Enlaces internos</h2>   
+    <p>Estan en el mismo documento </p>
+    <ul>
+        <li> <a href="#estructura">Estructura</a></li>
+    </ul>
+
+    <h2>Enlaces y protocolos especiales</h2>
+    <a href="mailto:hola@gmail.com">Enlace correo electronico</a><br>
+    <a href="tel:50253079090">Enlace a  Telefono</a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=50253079090">WhatsApp</a>
+
+    <h2>Elementos interactivos</h2>
+     <details open>
+         <summary>Title of the acord</summary>
+         <article>
+             <h3>Contenido de arcodeon</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laboriosam maiores rem error voluptatum voluptate dolorum totam, voluptates odit vel corrupti dolore modi, illo dolores veniam nobis cum. Sunt, autem!</p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quos recusandae non sequi perferendis dolor eligendi sunt quae dolorum error iste, nesciunt perspiciatis provident nam, facere quibusdam hic accusantium. Nihil.
+            </p>
+            </article>
+     </details>
+
+     <details>
+        <summary>Title of the acord</summary>
+        <article>
+            <h3>Contenido de arcodeon</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laboriosam maiores rem error voluptatum voluptate dolorum totam, voluptates odit vel corrupti dolore modi, illo dolores veniam nobis cum. Sunt, autem!</p>
+           <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quos recusandae non sequi perferendis dolor eligendi sunt quae dolorum error iste, nesciunt perspiciatis provident nam, facere quibusdam hic accusantium. Nihil.
+           </p>
+           </article>
+    </details>
+
+
+    <h2>audio - video</h2>
+    <audio src="#" controls preload> </audio>
+    <video src="#" controls preload autoplay poster=""></video>
+
+
+    <h2>IFrame</h2>
+    <iframe src="www.youtube.com" frameborder="0"></iframe>
+
+    <h2>Elementos de formularios</h2>
+    <input type="text" name="nombre" placeholder="nombre" pattern="^[A-Za-z]+$" required title="el campo solo acepta letras">
+    <br>
+    <input type="checkbox" name=""  id="">
+    <br>    
+    <input type="radio">
+    <br>
+    <button type="button" >Botón</button>
+    <br>
+    <button type="submit" >Enviar</button>
+    <br>
+    <input type="file">
+    <br>
+    <input type="file" multiple>
+    <br>
+    <input type="email" placeholder="emial">
+    <br>
+    <input type="number" placeholder="numero">
+    <br>
+    <input type="password" placeholder="password"> 
+    <br>
+    <input type="search" name="buscar" id="" placeholder="search" > 
+    <br>
+    <button type="reset">Reset</button>
+    <br>
+    <input type="tel" placeholder="numero telefonico">
+    <select name="" id="">
+        <option value="">HTML</option>
+        <option value="">JAVASCRIPT</option>
+        <option value="">CSS</option>
+    </select>
+    <label for="radio-js">JS</label>
+    <input type="radio" id="radio-js" name="lenguaje" checked>
+    <label for="radio-py"  >PYTHON</label>
+    <input type="radio"   name="lenguaje"  id="radio-py" >
+    <label for="radio-java">JAVA</label>
+    <input type="radio"name="lenguaje" id="radio-java" >
+    <label for="radio-rc">REACT</label>
+    <input type="radio"name="lenguaje" id="radio-rc" >
+    <br>
+    <label>
+        <input type="checkbox" name="interes" value="salud">
+        salud
+    </label>
+    <label>
+        <input type="checkbox" name="interes" value="finanzas">
+        finanzas
+    </label>
+    <label>
+        <input type="checkbox" name="interes" value="programacion">
+        programacion
+    </label>
+
+    <h2>Formulario de contacto</h2>
+    <form action="https://formsubmit.co/fernanramirez1998@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Name" title="solo acepta letras y espacios en blanco">
+        <br>
+        <input type="email" name="correo" placeholder="Email" required title="ingresa tu correo ">
+        <br>
+        <textarea name="comentarios" id="" cols="30" rows="10" required></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <h2>DataAttributes</h2>
+
+    <h2>MetaEtiquetas para CEO</h2>
+    <ul>
+        <li>ñink rel="canonical" href="http://dominio.com/la-url-canonica"</li>
+        <li>Favicon - recomendable que sea de gran formato</li>
+        <li> link rel="icon" href="ruta/favico"</li>
+        <li> link rel="apple-touch-icon" href="ruta/favicon"</li>
+        <li>meta name="theme-color" content="#FF6600" </li>
+    </ul>
+
+    <h2>MetaEtiquetas para Redes Sociales</h2>
+    <h2>Accesibilidad WEB</h2>  
+    <h3 role="title">Las estaciones del año</h3>
+    <ul role="list">
+        <li role="">primavera</li>
+        <li role="listitem">otoño</li>
+        <li role="listitem">verano</li>
+        <li role="listitem">invierno</li>
+    </ul>
+    <a href="#" aria-label="en este enlace encontraras mas informacion sobre las estaciones del año" role="link" target="_blank">Más información....</a>
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
